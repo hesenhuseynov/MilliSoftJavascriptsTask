@@ -115,32 +115,24 @@
 // }
 // console.log(randomElement(exampleArray));
 
-// //9 cu tapşırıq
+//9 cu tapşırıq
+// function numberSingleendone() {
+//     const result = [];
 //
-//    function unitueDigitsNumber(){
+//     for (let i = 1; i <= 100; i++) {
 //
-//     for (let i = 1; i < 100; i++) {
-//     let unique=true;
-//     let number=i.toString();
+//         const numberAsString = i.toString();
 //
-//      for (let j = 0; j <number.length ; j++) {
-//       for (let k = 0; k < number.length; k++) {
-//        if (j!==k&&number[j]===number[k]){
-//         unique=false;
-//         break;
-//        }
-//       }
-//       if (!unique) break;
-//      }
-//      if (unique) {
-//       console.log(i);
-//      }
+//
+//         if (numberAsString.endsWith('1') && !numberAsString.substring(0, numberAsString.length - 1).includes('1')) {
+//             result.push(i);
+//         }
 //     }
-//    }
-// unitueDigitsNumber();
-
-
-
+//
+//     console.log(result);
+// }
+//
+// numberSingleendone();
 
 
 // //10 cu tapşırıq
