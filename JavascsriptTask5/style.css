@@ -1,0 +1,30 @@
+
+
+.divinput-1{
+    display: inline-block;
+}
+.divinput-2{
+    display: inline-block;
+}
+
+.calculations{
+     display: inline-block;
+    text-align: center;
+}
+
+.calculations div{
+    padding-top: 6px ;
+    padding-left: 3px;
+    gap: 5px;
+    display: inline-block;
+    background-color: beige;
+    height: 30px;
+    width: 26px;
+}
+
+#changediv{
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    border: 2px dashed black ;
+}
